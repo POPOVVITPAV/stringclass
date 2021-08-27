@@ -19,6 +19,10 @@ public class Main {
         for (String fiveWordInWords: words) {
             if (fiveWordInWords.length() !=6 && fiveWordInWords.length()>4){
                 System.out.println(fiveWordInWords);
+                if(fiveWordInWords.equals("ногах")){
+                  String nowWord =  fiveWordInWords.replace("ногах","руках");
+                    System.out.println(nowWord);
+                }
             }
         }
         System.out.println("____________");
